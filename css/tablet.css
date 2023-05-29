@@ -1,0 +1,56 @@
+@media screen and (max-width: 992px) {
+
+    /* Phần navbar */
+    .img-avt {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        flex-basis: 20%;
+        font-size: 14px;
+        padding-top: 23px;
+        flex-direction: row-reverse;
+    }
+    .nava3 {
+        flex-basis: 10%;
+        padding-top: 10px;
+    }
+
+    /* Phần thông tin nghề nghiệp */
+    .container {
+        padding: 40px 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .like {
+        font-size: 16px;
+    }
+
+    /* Phần chứng chỉ - giải thưởng */
+    .cards { 
+        display: block;
+    }
+    .cards img {
+        width: 100%;
+    }
+    .cards p {
+        margin: 10px 0 0 0;
+        padding-right: 40%;
+    }
+
+    /* Phần dự án */
+    .project-time {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    .project-time a:nth-child(3) {
+        grid-column: 2/3;
+    }
+    
+    /* Phần footer */
+    .icon-footer {
+        font-size: xx-large;
+    }
+}

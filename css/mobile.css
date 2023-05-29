@@ -1,0 +1,81 @@
+@media screen and (max-width: 576px) {
+    
+    /* Phần Navbar */
+    .navbar {
+        display: block;
+        margin-bottom: 35%;
+        margin-top: 10%;
+    }
+    .nav {
+        justify-content: start;
+        padding: 0 20%;
+    }
+    .nav:nth-child(1) {
+        padding-bottom: 23px;
+    }
+    .nav:nth-child(4) {
+        padding-bottom: 23px;
+    }
+    .navbar a {
+        border: 0.1px solid white;
+    }
+
+    /* Mục tiêu cá nhân và thông tin nghề nghiệp */
+    .info {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Xây dựng phần thông tin nghề nghiệp */
+    .container {
+        display: block;
+        padding: 40px;
+    }
+    .cover {
+        margin-bottom: 40px ;
+    }
+
+    /* Phần chứng chỉ - giải thưởng */
+    .awards {
+        display: block;
+        border-bottom: unset;
+        margin-bottom: 40px;
+    }
+    .cards img {
+        width: 100%;
+    }
+    .cards:nth-child(2)::before {
+        height: 0;
+    }
+    .cards {
+        padding: 5%;
+    }
+    .cards:nth-child(1) {
+        border-bottom: 1.5px solid #d6c08d
+    }
+    .cards p {
+        padding: 0;
+    }
+
+    /* Phần dự án */
+    .project-time {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .project-time a:nth-child(2) {
+        grid-row: 2/3;
+    }
+    .project-time a:nth-child(3) {
+        grid-row: 3/4;
+    }
+
+    /* Phần footer */
+    .icon-footer {
+        font-size: xxx-large;
+    }
+    #footer span {
+        display: none;
+    }
+}
